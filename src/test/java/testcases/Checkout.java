@@ -8,7 +8,6 @@ import pages.*;
 public class Checkout extends BaseTest {
     @Test
     public void checkoutTest() {
-        // Implement checkout test steps here]
         LoginPage loginPage = navBar.clickLogin();
         loginPage.login("monaeid", "123");
         loginPage.waitUntilLoginModalDisappears();
